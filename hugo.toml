@@ -1,0 +1,31 @@
+baseURL = 'https://sanilcg.net/'
+locale = 'en-us'
+title = 'Sanil CG'
+theme = 'PaperMod'
+
+[params]
+  defaultTheme = 'auto'
+  ShowReadingTime = true
+  ShowCodeCopyButtons = true
+  ShowPostNavLinks = true
+  ShowToc = true
+
+[params.homeInfoParams]
+  Title = "Broken notes & pieces of a life"
+  Content = "Half-finished thoughts, old photos, small moments and things I don't want to forget. Not polished, not in order. Just pieces."
+
+[[menu.main]]
+  name = 'Posts'
+  url = '/posts/'
+  weight = 1
+[[menu.main]]
+  name = 'Gallery'
+  url = '/gallery/'
+  weight = 2
+[[menu.main]]
+  name = 'About'
+  url = '/about/'
+  weight = 3
+
+[markup.highlight]
+  noClasses = false
