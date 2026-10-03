@@ -15,11 +15,11 @@ theme = 'PaperMod'
   Content = "Half-finished thoughts, old photos, small moments and things I don't want to forget. Not polished, not in order. Just pieces."
 
 [[menu.main]]
-  name = 'Posts'
+  name = 'Notes'
   url = '/posts/'
   weight = 1
 [[menu.main]]
-  name = 'Gallery'
+  name = 'Pictures'
   url = '/gallery/'
   weight = 2
 [[menu.main]]
