@@ -6,3 +6,10 @@
   vertical-align: middle;
   margin-right: 6px;
 }
+
+.post-meta,
+.entry-footer {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
